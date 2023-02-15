@@ -5,7 +5,9 @@ import { numberWithCommas } from "../../Utils/numberWithCommas";
 const Card = ({title, img, category, teacher, discount, currentPrice, price, Satisfaction, students}) => {
     return (
         <div>
-            <img src={img} className="w-full h-full rounded-lg mb-2 object-cover" alt={title}/>
+            <div className="mx-auto w-80 h-44">
+                <img src={img} className="w-full h-full rounded-lg mb-2 object-cover" alt={title}/>
+            </div>
             <div className="p-2">
                 <p className="text-sm text-slate-500 mb-1">{category}</p>
                 <p className="text-base font-bold transition-colors delay-100 ease-linear hover:text-green-600 cursor-pointer">{title}</p>

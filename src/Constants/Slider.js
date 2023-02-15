@@ -10,7 +10,7 @@ export const courseSlider = [
     {
         id: uuidv4(), 
         category: "برنامه نویسی",
-        img: '/Assets/webinar1-852-1-300x169.png',
+        img: '/Assets/Com_node-300x169.png',
         title: "آموزش Api نویسی با Nodejs", 
         teacher: "محمد امین سعیدی راد",
         price: 259_000,
