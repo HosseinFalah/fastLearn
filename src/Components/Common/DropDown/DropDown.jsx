@@ -9,7 +9,7 @@ const DropDown = () => {
     return (
         <ul className='flex items-center justify-center gap-x-5'>
             {navbarMenu.map(item => (
-                <li className='relative group' key={item.id}>
+                <li className='relative group z-10' key={item.id}>
                     <Link className='flex items-center gap-x-2 transition-colors delay-100 ease-linear group hover:text-[#52ac66]'>
                         {item.name}
                         <IoIosArrowDown className='transition-transform delay-100 ease-linear group-hover:rotate-180'/>
