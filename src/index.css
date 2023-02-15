@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: "Vazir";
-  -webkit-font-smoothing: Vazir;
-  -moz-osx-font-smoothing: Vazir;
+
+@layer base {
+  html {
+    font-family: "Vazir", Lalezar, sans-serif;
+  }
 }

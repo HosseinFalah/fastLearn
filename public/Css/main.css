@@ -1,4 +1,9 @@
 @font-face {
+    font-family: Lalezar;
+    src: url('../fonts/Lalezar-Regular.ttf');
+}
+
+@font-face {
     font-family: 'Vazir';
     src: url('../Font/Vazir .eot');
     src: url('../Font/Vazir.eot?#iefix') format('embedded-opentype'),

@@ -4,6 +4,10 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    fontFamily: {
+      'Vazir': ['Vazir'],
+      'Lalezar': ['Lalezar']
+    },
     container: {
       padding: {
         DEFAULT: '1rem',
