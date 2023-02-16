@@ -1,5 +1,4 @@
-import MiniSlider from "../Components/Slider/MiniSlider"
-import Slider from "../Components/Slider/Slider"
+import { Slider, MiniSlider, Category } from "./../Components/index";
 
 const Home = () => {
     return (
@@ -12,6 +11,7 @@ const Home = () => {
                     <MiniSlider/>
                 </div>
             </div>
+            <Category/>
         </div>
     )
 }
