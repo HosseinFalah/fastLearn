@@ -4,8 +4,8 @@ import { numberWithCommas } from "../../Utils/numberWithCommas";
 
 const Card = ({title, img, category, teacher, discount, currentPrice, price, Satisfaction, students}) => {
     return (
-        <div>
-            <div className="mx-auto w-80 h-44">
+        <div className="shadow-lg cursor-pointer">
+            <div className="mx-auto max-w-sm h-auto">
                 <img src={img} className="w-full h-full rounded-lg mb-2 object-cover" alt={title}/>
             </div>
             <div className="p-2">

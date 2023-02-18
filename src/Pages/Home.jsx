@@ -1,3 +1,4 @@
+import Courses from "../Components/Courses/Courses";
 import { Slider, MiniSlider, Category } from "./../Components/index";
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
                 </div>
             </div>
             <Category/>
+            <Courses/>
         </div>
     )
 }

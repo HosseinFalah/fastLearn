@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 import { courseSlider } from "../../Constants/Slider";
-import Card from "./Card";
+import Card from "../Common/Card";
 
 const MiniSlider = () => {
     return (
@@ -22,7 +22,7 @@ const MiniSlider = () => {
             modules={[Navigation, Autoplay]}
         >
             {courseSlider.map(course => (
-                <SwiperSlide className="flex" key={course.id}>
+                <SwiperSlide key={course.id}>
                     <Card {...course}/>
                 </SwiperSlide>
             ))}
