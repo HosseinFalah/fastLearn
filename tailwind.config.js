@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     fontFamily: {
       'Vazir': ['Vazir'],
-      'Lalezar': ['Lalezar']
+      'Lalezar': ['Lalezar'],
+      'IranSansDN': ['IranSansDN']
     },
     container: {
       padding: {

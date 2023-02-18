@@ -14,3 +14,15 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'IranSansDN';
+    src: url('../Font/IranSansDN.eot');
+    src: url('../Font/IranSansDN.eot?#iefix') format('embedded-opentype'),
+        url('../Font/IranSansDN.woff2') format('woff2'),
+        url('../Font/IranSansDN.woff') format('woff'),
+        url('../Font/IranSansDN.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
