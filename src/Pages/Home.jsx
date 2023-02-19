@@ -1,5 +1,4 @@
-import Courses from "../Components/Courses/Courses";
-import { Slider, MiniSlider, Category, SocialNetworks, Weblogs } from "./../Components/index";
+import { Slider, MiniSlider, Category, SocialNetworks, Weblogs, Courses, Download } from "./../Components/index";
 
 const Home = () => {
     return (
@@ -16,6 +15,7 @@ const Home = () => {
             <Courses/>
             <SocialNetworks/>
             <Weblogs/>
+            <Download/>
         </div>
     )
 }
