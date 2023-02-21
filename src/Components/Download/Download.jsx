@@ -2,7 +2,7 @@ import { MdAndroid } from "react-icons/md";
 
 const Download = () => {
     return (
-        <div className="flex items-center justify-between py-7 px-4 bg-[#2d2d2d] text-white rounded-2xl">
+        <div className="flex items-center justify-between py-7 px-4 my-6 bg-[#2d2d2d] text-white rounded-2xl">
             <div className="flex items-center">
                 <MdAndroid size={35}/>
                 <p className="text-lg font-IranSansDN mr-4">دانلود اپلیکیشن استاد شو</p>
