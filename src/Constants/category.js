@@ -25,7 +25,7 @@ export const categorys = [
     },
     {
         id: uuidv4(),
-        title: 'کارگاه آموزشی هوش مصنوعی',
+        title: 'کارگاه هوش مصنوعی',
         icon: <FaBrain className="mr-2 text-gray-700 group-hover:text-white" size={35}/>,
         desc: '4 دوره آموزشی'
     },

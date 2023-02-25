@@ -2,7 +2,7 @@ import Navbar from "../Components/Navbar/Navbar"
 
 const Header = () => {
     return (
-        <header className="container mx-auto">
+        <header className="md:container mx-auto">
             <Navbar/>
         </header>
     )
