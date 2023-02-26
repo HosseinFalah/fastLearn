@@ -13,7 +13,7 @@ const CategoryCourse = () => {
     return (
         <Swiper
             spaceBetween={25}
-            slidesPerView={4}
+            slidesPerView={2}
             autoplay={{
                 delay: 4000,
                 pauseOnMouseEnter: true

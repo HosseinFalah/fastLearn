@@ -19,8 +19,8 @@ const CardWeblog = () => {
                             </div>
                         </div>
                         <div>
-                            <h5 className="font-Lalezar text-lg text-gray-600 transition-colors delay-75 ease-linear hover:text-green-600 cursor-pointer">{weblog.title}</h5>
-                            <p className="mt-3 font-IranSansDN text-base text-gray-700">{weblog.desc}</p>
+                            <h5 className="font-Lalezar md:text-base lg:text-lg text-gray-600 transition-colors delay-75 ease-linear hover:text-green-600 cursor-pointer">{weblog.title}</h5>
+                            <p className="mt-3 font-IranSansDN text-sm text-gray-700">{weblog.desc}</p>
                         </div>
                     </div>
                 </div>

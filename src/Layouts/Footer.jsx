@@ -5,7 +5,7 @@ import { HiViewGrid } from "react-icons/hi";
 
 const Footer = () => {
     return (
-        <footer className="container mx-auto bg-[#3c3e45] text-white py-8">
+        <footer className="container m-auto bg-[#3c3e45] text-white py-8">
             <section className="flex items-center justify-between border-b-2 border-gray-800">
                 <div className="w-32">
                     <img src={'/Assets/LogoCompany.ico'} className="max-w-full h-auto object-cover" alt="Logo" />

@@ -35,8 +35,8 @@ const Courses = () => {
                 </button>
             </div>
             <Swiper
-                slidesPerView={3}
-                spaceBetween={25}
+                slidesPerView={1}
+                spaceBetween={10}
                 autoplay={{
                     delay: 3000,
                     pauseOnMouseEnter: true
