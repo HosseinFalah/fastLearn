@@ -8,9 +8,9 @@ import { GiTakeMyMoney } from "react-icons/gi"
 
 const Header = () => {
     return (
-        <header className="md:container m-auto">
+        <header className="md:container mx-auto">
             <Navbar/>
-            <div className="container m-auto grid items-center grid-cols-1 lg:grid-cols-2">
+            <div className="container p-4 md:p-0 grid items-center grid-cols-1 lg:grid-cols-2">
                 <div>
                     <h2 className="font-Lalezar text-gray-600 text-3xl">داستان برنامه‌نویس شدنت از اینجا شروع میشه!</h2>
                     <h4 className="font-IranSansDN leading-8 text-gray-500 text-base my-5">یادگیری برنامه‌نویسی آرزو نیست، فقط نیاز هست، تلاش و تمرین داشته <br /> باشید، بقیه‌اش با استاد شو</h4>
