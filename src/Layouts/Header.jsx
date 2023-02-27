@@ -8,9 +8,9 @@ import { GiTakeMyMoney } from "react-icons/gi"
 
 const Header = () => {
     return (
-        <header className="md:container mx-auto">
+        <header className="md:container m-auto">
             <Navbar/>
-            <div className="grid items-center grid-cols-1 lg:grid-cols-2">
+            <div className="container m-auto grid items-center grid-cols-1 lg:grid-cols-2">
                 <div>
                     <h2 className="font-Lalezar text-gray-600 text-3xl">داستان برنامه‌نویس شدنت از اینجا شروع میشه!</h2>
                     <h4 className="font-IranSansDN leading-8 text-gray-500 text-base my-5">یادگیری برنامه‌نویسی آرزو نیست، فقط نیاز هست، تلاش و تمرین داشته <br /> باشید، بقیه‌اش با استاد شو</h4>
@@ -26,19 +26,19 @@ const Header = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-y-6 my-8">
                         <div className="flex items-center gap-x-6">
                             <SlGraduation className="text-red-600 shadow-md" size={25}/>
-                            <p className="font-Lalezar text-gray-600 text-xl ">بیش از 80 دوره آموزشی</p>
+                            <p className="font-Lalezar text-gray-600 text-xl">بیش از 80 دوره آموزشی</p>
                         </div>
                         <div className="flex items-center gap-x-6">
                             <GiTakeMyMoney className="text-gray-600 shadow-md" size={25}/>
-                            <p className="font-Lalezar text-gray-600 text-xl ">ضمانت بازگشت وجه</p>
+                            <p className="font-Lalezar text-gray-600 text-xl">ضمانت بازگشت وجه</p>
                         </div>
                         <div className="flex items-center gap-x-6">
                             <BiEdit className="text-purple-700 shadow-md" size={25}/>
-                            <p className="font-Lalezar text-gray-600 text-xl ">یادگیری با تمرین و آزمون</p>
+                            <p className="font-Lalezar text-gray-600 text-xl">یادگیری با تمرین و آزمون</p>
                         </div>
                         <div className="flex items-center gap-x-6">
                             <FiPhoneCall className="text-blue-400 shadow-md" size={25}/>
-                            <p className="font-Lalezar text-gray-600 text-xl ">پشتیبانی ۲۴ساعته</p>
+                            <p className="font-Lalezar text-gray-600 text-xl">پشتیبانی ۲۴ساعته</p>
                         </div>
                     </div>
                 </div>
