@@ -30,7 +30,7 @@ const Slider = () => {
         >
             {bannerSlider.map(banner => (
                 <SwiperSlide key={banner.id}>
-                    <img src={banner.img} alt="Banner"/>
+                    <img src={banner.img} className="max-w-full h-auto" alt="Banner"/>
                 </SwiperSlide>
             ))}
             <div className="">
