@@ -1,3 +1,4 @@
+export { default as Banner } from './Banner/Banner'
 export { default as Slider } from './Slider/Slider'
 export { default as Category } from './CategoryCourse/Category'
 export { default as SocialNetworks } from './SocialNetworks/SocialNetworks'

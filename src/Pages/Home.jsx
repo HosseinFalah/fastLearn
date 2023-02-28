@@ -1,8 +1,9 @@
-import { Slider, Category, SocialNetworks, Weblogs, Courses, Download } from "./../Components/index";
+import { Banner, Slider, Category, SocialNetworks, Weblogs, Courses, Download } from "./../Components/index";
 
 const Home = () => {
     return (
         <div className="container mx-auto">
+            <Banner/>
             <Slider/>
             <Category/>
             <Courses/>
