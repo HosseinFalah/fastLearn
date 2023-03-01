@@ -40,7 +40,35 @@ const Shop = () => {
                     </div>
                 </div>
                 <div>
-                    
+                    <div className="bg-[#f8f9fa] p-4 rounded-xl mb-4">
+                        <h5 className="text-sm my-2 text-gray-600">فیلتر بر اساس قیمت:</h5>
+                        <div className="my-2 text-sm text-gray-600">
+                            <span>تومان 0</span>
+                            -
+                            <span>1,200,00 تومان</span>
+                        </div>
+                        <div className="flex justify-end">
+                            <button className="bg-gradient-to-tr to-green-700 from-green-300 text-white py-3 px-5 rounded-xl">
+                                فیلتر قیمت
+                            </button>
+                        </div>
+                    </div>
+                    <div className="bg-[#f8f9fa] p-4 rounded-xl mb-4">
+                        <p className="text-sm my-2 font-bold text-gray-600">دسته های محصولات</p>
+                        <ul className="mt-4 space-y-2">
+                            <li className="text-sm text-gray-600 transition-all delay-200 duration-200 ease-linear px-2 py-2 hover:bg-white rounded-xl cursor-pointer hover:text-gray-700 hover:text-base">ارز های دیجیتال</li>
+                            <li className="text-sm text-gray-600 transition-all delay-200 duration-200 ease-linear px-2 py-2 hover:bg-white rounded-xl cursor-pointer hover:text-gray-700 hover:text-base">برنامه نویسی</li>
+                            <li className="text-sm text-gray-600 transition-all delay-200 duration-200 ease-linear px-2 py-2 hover:bg-white rounded-xl cursor-pointer hover:text-gray-700 hover:text-base">هک و امنیت</li>
+                        </ul>
+                    </div>
+                    <div className="bg-[#f8f9fa] p-4 rounded-xl">
+                        <div className="grid place-items-center place-content-center">
+                            <img 
+                                src="/Assets/iranpro-gif-banner-design-Bannersaaz.gif" 
+                                className="max-w-full h-auto" 
+                                alt="تبلیغات" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
