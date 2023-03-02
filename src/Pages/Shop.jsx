@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import { BsSearch } from "react-icons/bs";
+import { BiLeftArrow } from "react-icons/bi";
 import { CiLocationOn } from "react-icons/ci";
 import { IoIosArrowBack } from "react-icons/io";
 
@@ -55,6 +56,13 @@ const Shop = () => {
                                 students={course.students}   
                             />
                         ))}
+                    </div>
+                    <div className="flex items-center justify-center gap-x-4 mt-10">
+                        <button className="bg-[#52ac66] text-white py-3 px-5 rounded-lg">1</button>
+                        <button className="bg-[#f8f9fa] text-neutral-700 py-3 px-5 rounded-lg transition-colors delay-75 ease-linear hover:bg-[#52ac66] hover:text-white">2</button>
+                        <button className="bg-[#f8f9fa] text-neutral-700 py-4 px-5 rounded-lg transition-colors delay-75 ease-linear hover:bg-[#52ac66] hover:text-white">
+                            <BiLeftArrow size={15}/>
+                        </button>
                     </div>
                 </div>
                 <div>
