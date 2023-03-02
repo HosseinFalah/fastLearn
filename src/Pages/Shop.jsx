@@ -5,6 +5,9 @@ import { CiLocationOn } from "react-icons/ci";
 import { IoIosArrowBack } from "react-icons/io";
 
 import SelectBox from "../Components/SelectBox/SelectBox";
+import Card from "../Components/Common/Card";
+
+import { courses } from "../Constants/course";
 
 const Shop = () => {
     const [querySearch, setQuerySearch] = useState("");
@@ -23,13 +26,13 @@ const Shop = () => {
                     </li>
                 </ul>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-x-6 my-6">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-6 my-6">
                 <div className="col-span-2">
-                    <div className="flex items-center justify-between bg-[#f8f9fa] py-6 px-4 rounded-xl">
-                        <div className="w-2/5 relative">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 bg-[#f8f9fa] space-y-4 lg:space-y-0 lg:gap-x-8 p-4 rounded-xl">
+                        <div className="relative">
                             <input 
                                 type="text" 
-                                className="w-full py-3 px-5 pr-10 rounded-2xl focus:outline-none ring-1 ring-green-500"
+                                className="w-full py-2 px-5 pr-10 rounded-lg focus:outline-none ring-1 ring-green-600"
                                 value={querySearch} 
                                 onChange={(e) => setQuerySearch(e.target.value)}
                                 placeholder="جستجو در محصولات ..."
@@ -37,6 +40,21 @@ const Shop = () => {
                             <BsSearch className="text-gray-500 absolute top-3 right-3" size={18}/>
                         </div>
                         <SelectBox/>
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
+                        {courses.map(course => (
+                            <Card 
+                                key={course.id} 
+                                category={course.category} 
+                                img={course.img} 
+                                title={course.title} 
+                                price={course.price}
+                                currentPrice={course.currentPrice}
+                                discount={course.discount}
+                                Satisfaction={course.Satisfaction}
+                                students={course.students}   
+                            />
+                        ))}
                     </div>
                 </div>
                 <div>
@@ -56,9 +74,9 @@ const Shop = () => {
                     <div className="bg-[#f8f9fa] p-4 rounded-xl mb-4">
                         <p className="text-sm my-2 font-bold text-gray-600">دسته های محصولات</p>
                         <ul className="mt-4 space-y-2">
-                            <li className="text-sm text-gray-600 transition-all delay-200 duration-200 ease-linear px-2 py-2 hover:bg-white rounded-xl cursor-pointer hover:text-gray-700 hover:text-base">ارز های دیجیتال</li>
-                            <li className="text-sm text-gray-600 transition-all delay-200 duration-200 ease-linear px-2 py-2 hover:bg-white rounded-xl cursor-pointer hover:text-gray-700 hover:text-base">برنامه نویسی</li>
-                            <li className="text-sm text-gray-600 transition-all delay-200 duration-200 ease-linear px-2 py-2 hover:bg-white rounded-xl cursor-pointer hover:text-gray-700 hover:text-base">هک و امنیت</li>
+                            <li className="text-sm text-gray-600 transition-all delay-100 duration-100 ease-linear px-2 py-2 hover:bg-white rounded-xl cursor-pointer hover:text-gray-700 hover:text-base">ارز های دیجیتال</li>
+                            <li className="text-sm text-gray-600 transition-all delay-100 duration-100 ease-linear px-2 py-2 hover:bg-white rounded-xl cursor-pointer hover:text-gray-700 hover:text-base">برنامه نویسی</li>
+                            <li className="text-sm text-gray-600 transition-all delay-100 duration-100 ease-linear px-2 py-2 hover:bg-white rounded-xl cursor-pointer hover:text-gray-700 hover:text-base">هک و امنیت</li>
                         </ul>
                     </div>
                     <div className="bg-[#f8f9fa] p-4 rounded-xl">

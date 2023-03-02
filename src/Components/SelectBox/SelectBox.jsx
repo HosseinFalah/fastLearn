@@ -19,7 +19,7 @@ const SelectBox = () => {
 
     return (
         <Select
-            className="w-2/5 font-IranSansDN text-amber-600"
+            className="font-IranSansDN text-amber-600 space-y-0.5"
             defaultValue={sortOption[1]}
             isDisabled={isDisabled}
             isLoading={isLoading}
