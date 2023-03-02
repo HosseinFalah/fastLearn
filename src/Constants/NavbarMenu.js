@@ -3,7 +3,8 @@ import { v4 as uuidv4 } from 'uuid';
 export const navbarMenu = [
     {
         id: uuidv4(),
-        name: "برنامه نویسی", 
+        name: "برنامه نویسی",
+        link: '/',
         subMenu: [
             'فرانت اند',
             'بک اند',
@@ -12,7 +13,8 @@ export const navbarMenu = [
     },
     {
         id: uuidv4(),
-        name: "فروشگاه", 
+        name: "فروشگاه",
+        link: '/shop',
         subMenu: [
             'سبد خرید',
             'پرداخت',
@@ -21,7 +23,8 @@ export const navbarMenu = [
     },
     {
         id: uuidv4(),
-        name: "مدرسین", 
+        name: "مدرسین",
+        link: '/',
         subMenu: [
             'قدیر یلمه',
             'ایمان مئدانی',
@@ -30,7 +33,8 @@ export const navbarMenu = [
     },
     {
         id: uuidv4(),
-        name: "وبلاگ", 
+        name: "وبلاگ",
+        link: '/', 
         subMenu: [
             'شبکه و امنیت',
             'کسب و کار',

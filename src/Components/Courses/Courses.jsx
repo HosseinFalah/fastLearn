@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper";
@@ -26,13 +27,13 @@ const Courses = () => {
                         <p className="text-xs text-gray-500 mt-1">THE LATEST TRAINING COURSES</p>
                     </div>
                 </div>
-                <button className="hidden md:flex items-center transition-colors delay-75 ease-linear bg-[#4b515a] hover:bg-green-600 text-white py-3 px-6 rounded-xl">
+                <Link to={`/shop`} className="hidden md:flex items-center transition-colors delay-75 ease-linear bg-[#4b515a] hover:bg-green-600 text-white py-3 px-6 rounded-xl">
                     مشاهده بیشتر
                     <IoIosArrowBack className="mr-2"/>
-                </button>
-                <button className="flex items-center md:hidden transition-colors delay-75 ease-linear bg-[#4b515a] hover:bg-green-600 text-white p-4 rounded-xl">
+                </Link>
+                <Link to={`/shop`} className="flex items-center md:hidden transition-colors delay-75 ease-linear bg-[#4b515a] hover:bg-green-600 text-white p-4 rounded-xl">
                     <IoIosArrowBack/>
-                </button>
+                </Link>
             </div>
             <Swiper
                 slidesPerView={1}

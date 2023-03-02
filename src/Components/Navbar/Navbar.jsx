@@ -4,6 +4,7 @@ import { MdOutlineNightlight } from "react-icons/md";
 import { FaUserLock } from "react-icons/fa";
 
 import DropDown from "../Common/DropDown/DropDown";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -31,7 +32,9 @@ const Navbar = () => {
             {/* Desktop View */}
             <div className="hidden lg:flex items-center justify-between">
                 <div className="flex items-center">
-                    <img src="/Assets/LogoCompany.ico" className="w-24 h-24 object-cover transition-transform delay-100 ease-linear hover:scale-110" alt="Logo"/>
+                    <Link to={`/`}>
+                        <img src="/Assets/LogoCompany.ico" className="w-24 h-24 object-cover transition-transform delay-100 ease-linear hover:scale-110" alt="Logo"/>
+                    </Link>
                     <DropDown/>
                 </div>
                 <div className="flex items-center gap-x-3">
