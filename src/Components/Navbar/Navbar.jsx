@@ -1,10 +1,10 @@
+import { Link } from "react-router-dom";
 import { BsSearch, BsBasket } from "react-icons/bs";
 import { AiOutlineMenu } from "react-icons/ai";
 import { MdOutlineNightlight } from "react-icons/md";
 import { FaUserLock } from "react-icons/fa";
 
 import DropDown from "../Common/DropDown/DropDown";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -17,13 +17,13 @@ const Navbar = () => {
                 <div className="w-24 h-24">
                     <img src="/Assets/LogoCompany.ico" className="max-w-full h-auto object-cover transition-transform delay-100 ease-linear hover:scale-110" alt="Logo" />
                 </div>
-                <button className="hidden md:flex items-center flex-row-reverse bg-green-600 text-white rounded-lg px-4 py-3 transition-colors delay-100 ease-linear hover:bg-green-800">
+                <Link to={`/auth`} className="hidden md:flex items-center flex-row-reverse bg-green-600 text-white rounded-lg px-4 py-3 transition-colors delay-100 ease-linear hover:bg-green-800">
                     ورود / عضویت
                     <FaUserLock className="ml-3" size={20}/>
-                </button>
-                <button className="md:hidden flex items-center flex-row-reverse bg-green-600 text-white rounded-lg px-4 py-3 transition-colors delay-100 ease-linear hover:bg-green-800">
+                </Link>
+                <Link to={`/auth`} className="md:hidden flex items-center flex-row-reverse bg-green-600 text-white rounded-lg px-4 py-3 transition-colors delay-100 ease-linear hover:bg-green-800">
                     <FaUserLock size={20}/>
-                </button>
+                </Link>
             </div>
 
             {/* SideBar Moblie */}
@@ -48,10 +48,10 @@ const Navbar = () => {
                         <BsBasket className="text-green-700 transition-colors delay-150 ease-linear group-hover:text-white" size={18}/>
                         <span className="absolute -top-2 -right-1 transition-colors delay-150 ease-linear bg-green-600 text-white group-hover:bg-white group-hover:text-green-600 flex items-center justify-center w-5 h-5 rounded-full">0</span>
                     </button>
-                    <button className="flex items-center flex-row-reverse bg-green-600 text-white rounded-lg px-4 py-3 transition-colors delay-100 ease-linear hover:bg-green-800">
+                    <Link to={`/auth`} className="flex items-center flex-row-reverse bg-green-600 text-white rounded-lg px-4 py-3 transition-colors delay-100 ease-linear hover:bg-green-800">
                         ورود / عضویت
                         <FaUserLock className="ml-3" size={20}/>
-                    </button>
+                    </Link>
                 </div>
             </div>
         </nav>
