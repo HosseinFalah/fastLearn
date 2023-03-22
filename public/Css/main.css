@@ -1,6 +1,8 @@
 @font-face {
     font-family: Lalezar;
     src: url('../Font/Lalezar-Regular.ttf');
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {

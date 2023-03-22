@@ -1,8 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 
 import MainLayout from "../Layouts/MainLayout";
-import { Home, NotFound, Shop, Login, Register } from "../Pages/index";
-import Cart from "../Pages/Cart";
+import { Home, NotFound, Shop, Login, Register, Cart, Product } from "../Pages/index";
 
 export const router = createBrowserRouter([
     {
@@ -28,6 +27,11 @@ export const router = createBrowserRouter([
             {
                 path: '/auth/register',
                 element: <Register/>
+            },
+            {
+                path: '/shop/product/:productName',
+                element: <Product/>,
+                
             },
             {
                 path: '*',
