@@ -8,8 +8,8 @@ import { CardWeblog } from "../Components/index";
 const Blogs = () => {
     return (
         <div className="container m-auto">
-            <div className="my-4">
-                <ul className="bg-[#52ac66] shadow-lg rounded-xl flex py-4 px-6">
+            <div className=" bg-[#52ac66] shadow-lg rounded-xl flex items-center justify-between py-4 px-6 my-4">
+                <ul className="flex">
                     <li className="flex items-center text-white">
                         <CiLocationOn size={25}/>
                         <Link to={`/`} className="text-[#FFFFFF99] mr-6 ml-3">خانه</Link>
@@ -19,6 +19,7 @@ const Blogs = () => {
                         <Link to={`/`} className="text-white">وبلاگ</Link>
                     </li>
                 </ul>
+                <input type="text" className="outline-none px-4 py-2 ring-2 ring-amber-500 rounded-lg placeholder:text-sm" placeholder="جستجو در مطالب ..." />
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 space-y-2 gap-x-4 my-4">
                 <CardWeblog />
