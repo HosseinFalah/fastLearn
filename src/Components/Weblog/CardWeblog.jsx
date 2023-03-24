@@ -6,8 +6,8 @@ const CardWeblog = () => {
     return (
         <>
             {weblogs.map(weblog => (
-                <div className="shadow-2xl rounded-2xl p-2" key={weblog.id}>
-                    <img src={weblog.img} className="max-w-full h-auto rounded-lg" alt={weblog.title} />
+                <div className="shadow-xl drop-shadow-xl rounded-2xl p-2" key={weblog.id}>
+                    <img src={weblog.img} className="w-full h-48 rounded-lg" alt={weblog.title} />
                     <div className="flex items-center justify-between my-4 gap-x-4">
                         <div>
                             <div className="px-3 py-1 border-2 border-gray-200 text-gray-500 rounded-md">
