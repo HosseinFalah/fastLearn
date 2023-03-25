@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 
 import MainLayout from "../Layouts/MainLayout";
-import { Home, NotFound, Shop, Login, Register, Cart, Product, Blogs } from "../Pages/index";
+import { Home, NotFound, Shop, Login, Register, Cart, Product, Blogs, Blog } from "../Pages/index";
 
 export const router = createBrowserRouter([
     {
@@ -36,6 +36,10 @@ export const router = createBrowserRouter([
             {
                 path: '/blogs',
                 element: <Blogs/>
+            },
+            {
+                path: '/blog/:blogName',
+                element: <Blog/>
             },
             {
                 path: '*',
