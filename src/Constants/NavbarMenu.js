@@ -24,7 +24,7 @@ export const navbarMenu = [
     {
         id: uuidv4(),
         name: "مدرسین",
-        link: '/',
+        link: '/teacher/jadi',
         subMenu: [
             'قدیر یلمه',
             'ایمان مئدانی',
@@ -34,7 +34,7 @@ export const navbarMenu = [
     {
         id: uuidv4(),
         name: "وبلاگ",
-        link: '/', 
+        link: '/blogs', 
         subMenu: [
             'شبکه و امنیت',
             'کسب و کار',

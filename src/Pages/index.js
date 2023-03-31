@@ -7,3 +7,4 @@ export { default as Register } from './Auth/Register';
 export { default as Product } from './Product';
 export { default as Blogs } from './Blogs';
 export { default as Blog } from './Blog';
+export { default as Teacher } from './Teacher';
