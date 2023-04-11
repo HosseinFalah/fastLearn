@@ -8,3 +8,4 @@ export { default as Product } from './Product';
 export { default as Blogs } from './Blogs';
 export { default as Blog } from './Blog';
 export { default as Teacher } from './Teacher';
+export { default as Do } from './Do';
